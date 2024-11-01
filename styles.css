@@ -1,0 +1,57 @@
+header {
+    border-bottom: solid 2px rgb(253, 208, 23);
+    padding: 20px;
+    font-size: 40px;
+    color: rgb(30, 100, 255);
+    font-family: "Papyrus", sans-serif;
+}
+body {
+    color: white;
+    background: black;
+    margin: 0px;
+    font-family: "Comic Sans MS", sans-serif;
+    margin-bottom: 100px;
+}
+.chamada {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    justify-content: center;
+}
+.texto {
+    margin-right: 5%;
+    color: rgb(30, 100, 255);
+}
+div {
+    margin-right: 20px;
+    font-family: "Comic Sans MS", sans-serif;
+}
+h1 {
+    font-size: 35px;
+  }
+  p {
+    font-size: 17.5px;
+  }
+  .categoria-sigma {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+  }
+
+.categoria-sigma img {
+    opacity: 0.5;
+    height: 250px
+}
+
+.categoria-sigma img:hover {
+    opacity: 1.0;
+    border: 2px solid rgb(253, 208, 23);
+}
+
+  .categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+  }
+  .categoria h2 {
+    color: rgb(253, 208, 23);
+}
